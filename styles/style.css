@@ -12,9 +12,9 @@
 }
 
 .header-link-list {
-  margin-left: 30px;
   display: flex;
   gap: 23px;
+  margin-left: 30px;
   letter-spacing: 1px;
 }
 .del_underline {
@@ -31,10 +31,10 @@
   list-style: circle;
 }
 .logo_img_black {
-  width: 148px;
-  height: 105px;
   justify-content: center;
   align-content: center;
+  width: 148px;
+  height: 105px;
 }
 
 .header_address {
@@ -45,16 +45,16 @@
 .cover {
   height: 757px;
   background: url(/images/cover.jpg);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .overlay {
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
   position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .cover-title {
@@ -73,8 +73,8 @@
 }
 
 .aligned-text-center {
-  text-align: center;
   letter-spacing: 30px;
+  text-align: center;
 }
 
 .letter-spacing-extended {
@@ -82,8 +82,8 @@
 }
 
 .aligned-text_right {
-  text-align: right;
   letter-spacing: 30px;
+  text-align: right;
 }
 
 .cover__description {
@@ -95,26 +95,26 @@
 }
 
 .cover__description-text {
-  color: white;
-  word-spacing: 28px;
-  font-size: 22px;
   margin-bottom: 11px;
+  color: white;
+  font-size: 22px;
+  word-spacing: 28px;
 }
 
 .bet-button {
-  border: 1px solid white;
-  background-color: transparent;
-  color: white;
-  text-transform: uppercase;
-  cursor: pointer;
-  padding: 12px 31px;
   width: 256px;
   height: 51px;
+  margin-left: 50px;
+  border: 1px solid white;
+  padding: 12px 31px;
+  color: white;
   font-family: "Raleway", sans-serif;
   font-size: 22px;
   line-height: 25.83px;
   text-align: center;
-  margin-left: 50px;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .lots {
@@ -123,9 +123,9 @@
 }
 
 .lots__heading {
+  padding: 0 0 30px 40px;
   font-size: 40px;
   text-transform: uppercase;
-  padding: 0 0 30px 40px;
 }
 
 .lots__card-list {
@@ -145,28 +145,28 @@
 }
 
 .card {
-  height: 563px;
   width: 334px;
+  height: 563px;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .card__title {
+  padding: 51px 40px 0 40px;
+  color: white;
   font-size: 22px;
   line-height: 26.4px;
   text-decoration-line: underline;
-  color: white;
-  padding: 51px 40px 0 40px;
   text-transform: uppercase;
 }
 
 .card__text {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
-  color: white;
   padding: 0 40px 48px 40px;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .card_type_film {
@@ -182,8 +182,8 @@
 }
 
 .lots__look-more-link {
-  font-size: 20px;
   padding: 30px 0 0 40px;
+  font-size: 20px;
   text-underline-position: under;
 }
 
@@ -200,58 +200,58 @@
 }
 
 .about-logo {
+  display: flex;
+  grid-area: logo;
+  justify-content: center;
+  align-items: center;
   width: 240px;
   height: 240px;
   border-radius: 125px;
   background-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  grid-area: logo;
 }
 
 .about-logo-image {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 148px;
   height: 114px;
 }
 
 .about__text {
-  grid-area: text;
-  padding: 98px 0 13px 0;
-  width: 693px;
-  height: 449px;
   display: flex;
   flex-direction: column;
+  grid-area: text;
   gap: 24px;
+  width: 693px;
+  height: 449px;
+  padding: 98px 0 13px 0;
 }
 
 .about__title {
-  font-size: 40px;
+  padding-bottom: 76px;
   font-weight: 700;
+  font-size: 40px;
   text-align: left;
   text-transform: uppercase;
-  padding-bottom: 76px;
 }
 
 .about-text {
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.01em;
   display: flex;
   flex-direction: column;
   gap: 24px;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
 }
 
 .footer {
-  margin: 180px 50px 88px 50px;
   display: grid;
   grid-template-columns: 1fr 150px 1fr;
   grid-template-rows: auto;
   justify-content: center;
   align-items: center;
+  margin: 180px 50px 88px 50px;
 }
 
 .footer-address {
@@ -260,10 +260,10 @@
 }
 
 .footer-link-list {
+  gap: 23px;
   width: 149px;
   height: 64px;
   margin-left: 30px;
-  gap: 23px;
   letter-spacing: 1px;
   text-align: center;
   list-style: none;
@@ -275,12 +275,12 @@
 }
 
 .footer__social-list {
+  display: flex;
+  justify-content: space-between;
   width: 240px;
   height: 48px;
   margin-bottom: 49px;
   list-style: none;
-  display: flex;
-  justify-content: space-between;
 }
 
 .footer__social-icon {
