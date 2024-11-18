@@ -1,14 +1,11 @@
 .header {
-  height: 105px;
-  margin: 92px 24px;
-}
-
-.header {
   display: grid;
   grid-template-columns: 1fr 150px 1fr;
   grid-template-rows: auto;
   justify-content: center;
   align-items: center;
+  height: 105px;
+  margin: 92px 24px;
 }
 
 .header-link-list {
