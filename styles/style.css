@@ -12,7 +12,6 @@
   display: flex;
   gap: 32px;
   margin-left: 25px;
-  letter-spacing: 1px;
   font-size: 18px;
   letter-spacing: 0.01em;
 }
@@ -128,13 +127,13 @@
 }
 
 .lots {
-  padding: 179px 24px 0 24px;
+  padding: 183px 24px 0 24px;
   font-size: 40px;
   height: 100%;
 }
 
 .lots__heading {
-  padding: 3px 0px 30px 40px;
+  padding-left:40px;
   font-size: 40px;
   text-transform: uppercase;
 }
@@ -144,6 +143,7 @@
   flex-wrap: wrap;
   gap: 25px;
   list-style: none;
+  padding-top: 28px;
 }
 
 .lost__card-list-item {
@@ -197,6 +197,7 @@
   padding: 30px 0 0 40px;
   font-size: 20px;
   text-underline-position: under;
+  display: inline-block;
 }
 
 .about {
@@ -208,7 +209,7 @@
   grid-template-columns: 1fr 2fr;
   grid-auto-rows: auto;
   grid-template-areas: "logo text";
-  padding: 42px 0 0 47px;
+  padding: 31px 0 0 47px;
 }
 
 .about-logo {
