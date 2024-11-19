@@ -5,21 +5,26 @@
   justify-content: center;
   align-items: center;
   height: 105px;
-  margin: 92px 24px;
+  margin: 90px 24px;
 }
 
 .header-link-list {
   display: flex;
-  gap: 23px;
-  margin-left: 30px;
+  gap: 32px;
+  margin-left: 25px;
   letter-spacing: 1px;
+  font-size: 18px;
+  letter-spacing: 0.01em;
 }
+
 .del_underline {
   text-decoration: none;
 }
+
 .add_underline {
   border-bottom: 1px black solid;
 }
+
 .header-link-list-item_no-bullet {
   list-style: none;
 }
@@ -27,6 +32,7 @@
 .header-link-list-item {
   list-style: circle;
 }
+
 .logo_img_black {
   justify-content: center;
   align-content: center;
@@ -35,8 +41,11 @@
 }
 
 .header_address {
+  font-size: 18px;
   margin-left: 184px;
-  letter-spacing: 1px;
+  line-height: 24.3px;
+  font-style: normal;
+  letter-spacing: 0.01em;
 }
 
 .cover {
@@ -56,7 +65,7 @@
 
 .cover-title {
   width: 100%;
-  padding: 165px 50px 0px 50px;
+  padding: 165px 0px 0px 50px;
   color: white;
   text-transform: uppercase;
 }
@@ -72,22 +81,26 @@
 .aligned-text-center {
   letter-spacing: 30px;
   text-align: center;
+  padding-top: 12px;
+  padding-right: 50px;
 }
 
 .letter-spacing-extended {
   letter-spacing: 60px;
+  padding-left: 6px;
 }
 
 .aligned-text_right {
   letter-spacing: 30px;
   text-align: right;
+  padding-right: 50px;
 }
 
 .cover__description {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: end;
-  padding-top: 150px;
+  padding-top: 128px;
   text-transform: uppercase;
 }
 
@@ -95,15 +108,14 @@
   margin-bottom: 11px;
   color: white;
   font-size: 22px;
-  word-spacing: 28px;
+  word-spacing: 19px;
+  margin-left: 35px;
 }
 
 .bet-button {
   width: 256px;
   height: 51px;
-  margin-left: 50px;
   border: 1px solid white;
-  padding: 12px 31px;
   color: white;
   font-family: "Raleway", sans-serif;
   font-size: 22px;
@@ -112,15 +124,17 @@
   text-transform: uppercase;
   background-color: transparent;
   cursor: pointer;
+  margin-right: 10px;
 }
 
 .lots {
   padding: 179px 24px 0 24px;
   font-size: 40px;
+  height: 100%;
 }
 
 .lots__heading {
-  padding: 0 0 30px 40px;
+  padding: 3px 0px 30px 40px;
   font-size: 40px;
   text-transform: uppercase;
 }
@@ -131,6 +145,7 @@
   gap: 25px;
   list-style: none;
 }
+
 .lost__card-list-item {
   display: flex;
   flex-direction: column;
@@ -193,7 +208,7 @@
   grid-template-columns: 1fr 2fr;
   grid-auto-rows: auto;
   grid-template-areas: "logo text";
-  padding: 35px 0 0 47px;
+  padding: 42px 0 0 47px;
 }
 
 .about-logo {
@@ -226,7 +241,8 @@
 }
 
 .about__title {
-  padding-bottom: 76px;
+  margin-top: 3px;
+  padding-bottom: 75px;
   font-weight: 700;
   font-size: 40px;
   text-align: left;
@@ -239,28 +255,31 @@
   gap: 24px;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.0022em;
 }
 
 .footer {
   display: grid;
-  grid-template-columns: 1fr 150px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   justify-content: center;
   align-items: center;
-  margin: 180px 50px 88px 50px;
+  margin: 267px 50px 0px 50px;
 }
 
 .footer-address {
   letter-spacing: 1px;
   text-align: left;
+  line-height: 24.3px;
+  margin-top: 24px;
 }
 
 .footer-link-list {
   gap: 23px;
   width: 149px;
   height: 64px;
-  margin-left: 30px;
+  margin-left: 93px;
+  margin-bottom: 6px;
   letter-spacing: 1px;
   text-align: center;
   list-style: none;
@@ -276,8 +295,8 @@
   justify-content: space-between;
   width: 240px;
   height: 48px;
-  margin-bottom: 49px;
   list-style: none;
+  margin-bottom: 25px;
 }
 
 .footer__social-icon {
