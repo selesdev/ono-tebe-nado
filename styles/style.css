@@ -26,7 +26,6 @@
 
 .header-link-list-item {
   list-style: circle;
-  border: 1px;
 }
 
 .logo_img_black {
@@ -280,14 +279,13 @@
 }
 
 .footer-link-list {
-  line-height: 21.13px;
   gap: 23px;
+  line-height: 21.13px;
   letter-spacing: 1px;
   text-align: center;
-  list-style: none;
   text-underline-position: under;
+  list-style: none;
 }
-
 
 .footer_social {
   display: flex;
