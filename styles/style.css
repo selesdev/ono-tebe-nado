@@ -13,14 +13,11 @@
   margin-left: 25px;
   font-size: 18px;
   letter-spacing: 0.01em;
+  text-underline-position: under;
 }
 
-.del_underline {
+.link_active {
   text-decoration: none;
-}
-
-.add_underline {
-  border-bottom: 1px black solid;
 }
 
 .header-link-list-item_no-bullet {
@@ -29,6 +26,7 @@
 
 .header-link-list-item {
   list-style: circle;
+  border: 1px;
 }
 
 .logo_img_black {
@@ -43,6 +41,7 @@
   font-style: normal;
   line-height: 24.3px;
   letter-spacing: 0.01em;
+  text-underline-position: under;
 }
 
 .header-list {
@@ -273,7 +272,7 @@
   grid-template-rows: auto;
   justify-content: center;
   align-items: center;
-  margin: 140px 50px 0px 50px;
+  margin: 140px 50px 80px 50px;
 }
 
 .footer-list {
@@ -281,11 +280,14 @@
 }
 
 .footer-link-list {
+  line-height: 21.13px;
   gap: 23px;
   letter-spacing: 1px;
   text-align: center;
   list-style: none;
+  text-underline-position: under;
 }
+
 
 .footer_social {
   display: flex;
